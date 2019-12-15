@@ -44,9 +44,7 @@ def hit?(total)
   if user_input == 's'
     total
   elsif user_input == 'y'
-    card_three = deal_card
-    total += card_three
-    total
+    total += deal_card
   else
     puts "Please enter a valid command"
     prompt_user
