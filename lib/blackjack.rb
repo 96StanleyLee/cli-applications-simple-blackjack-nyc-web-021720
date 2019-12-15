@@ -32,12 +32,12 @@ def initial_round
   # code #initial_round here
   card_one = deal_card
   card_two = deal_card
-  total = card_one + card_two
-  display_card_total(total)
+  card_total = card_one + card_two
+  display_card_total(card_total)
   return total
 end
 
-def hit?(total)
+def hit?(card_total)
   # code hit? here
   prompt_user
   get_user_input
